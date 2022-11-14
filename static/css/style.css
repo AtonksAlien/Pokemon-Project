@@ -9,11 +9,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .titolone{
     font-size: 44px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+}
+
+.sottotitolo{
+    text-align: center;
+}
+
+h3{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+
+}
+
+span{
+    font-weight: bold;
 }
