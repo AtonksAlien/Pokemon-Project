@@ -28,9 +28,40 @@ h3{
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     justify-content: center;
-
 }
 
 span{
     font-weight: bold;
+}
+
+form{
+    max-width: 69%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.txt_form{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+input{
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 17px 89.1px 18px 11.72px;
+}
+
+.input{
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+}
+
+label{
+    padding-bottom: 10px;
+    padding-top: 24px;
 }
