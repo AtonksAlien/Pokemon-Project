@@ -37,10 +37,18 @@ span{
 form{
     max-width: 69%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.fields{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-top: 32px;
+    padding-bottom: 25px;
 }
 
 .txt_form{
@@ -64,4 +72,17 @@ input{
 label{
     padding-bottom: 10px;
     padding-top: 24px;
+}
+
+button{
+    border-radius: 15px;
+    border: 0px;
+    background: #94E1A5;
+    width: 30%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
 }
