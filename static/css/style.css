@@ -5,7 +5,7 @@
 .container{
     background-color: F5F5F5;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,4 +85,66 @@ button{
     font-weight: 700;
     font-size: 24px;
     font-family: 'Inter', sans-serif;
+}
+
+.card{
+    padding-top: 39px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.img{
+    background-color: #E36736;
+    padding: 26px 18.06px 26px 18.06px;
+    width: 142.38px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.stats{
+    background-color: white;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.div_stats{
+    display: flex;
+    flex-direction: row;
+}
+
+.titolo_pk{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    padding: 19px 71.19px 5px 21.25px;
+}
+
+.gen_pk{
+    padding-bottom: 5px;
+    padding-left: 21.25px;
+}
+
+.tipo_pk{
+    padding-bottom: 5px;
+    padding-left: 21.25px;
+}
+
+.div_stats{
+    padding-left: 21.25px;
+    padding-bottom: 19px;
+}
+
+.div_due{
+    padding-left: 5.71px;
+}
+
+#section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
 }
