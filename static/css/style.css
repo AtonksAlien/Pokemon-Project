@@ -99,9 +99,12 @@ button{
 
 .img{
     background-color: #E36736;
-    padding: 26px 18.06px 26px 18.06px;
+    padding: 26px 18px 26px 18px;
     width: 142.38px;
     border-radius: 25px 0px 0px 25px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .stats{
