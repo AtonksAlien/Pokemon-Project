@@ -16,6 +16,9 @@
 
 function calcolo_distanza($hp, $attack, $defense, $special_attack, $special_defense, $speed, &$dim_ut){
 // Calcoliamo e memorizziamo ladistanza tra i dati inseriti e i Pokemon
+    if (isset($_POST['vita']) && isset($_POST['attacco']) && isset($_POST['difesa']) && isset($_POST['att_speciale']) && isset($_POST['dif_speciale']) && isset($_POST['velocita'])){
+        # code...
+    
     $d1 =((int)$_POST["vita"]-(int)$hp);
     $d2 =((int)$_POST["attacco"]-(int)$attack);
     $d3 =((int)$_POST["difesa"]-(int)$defense);
@@ -32,10 +35,13 @@ function calcolo_distanza($hp, $attack, $defense, $special_attack, $special_defe
 
     array_push($dim_ut, $dim);
 }
+}
 
 function ricerca_distanzaMinima($dim_ut, $csv){
+
+    if (isset($_POST['vita']) && isset($_POST['attacco']) && isset($_POST['difesa']) && isset($_POST['att_speciale']) && isset($_POST['dif_speciale']) && isset($_POST['velocita'])){
     
-echo "<br/>";
+    
 $i=0;
 $cont = 0;
 
@@ -168,6 +174,7 @@ foreach($csv as $line){ // legge il csv riga per riga
         </div>";
     }
     $i++;
+}
 }
 }
 main();
