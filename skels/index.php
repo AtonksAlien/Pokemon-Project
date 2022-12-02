@@ -67,7 +67,7 @@
 
 
             <?php
-            require("../index.php");
+            require("../script.php");
             ?>
         </section>
         
