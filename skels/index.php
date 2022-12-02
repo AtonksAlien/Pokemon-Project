@@ -31,36 +31,36 @@
             <div class="fields">
                 <div class="input">
                     <label for="HP" class="txt_form">Punti Vita (HP):</label>
-                    <input type="text" name="vita" placeholder="Inserisci un numero da 0 a 300">
+                    <input type="text" name="vita" placeholder="Inserisci un numero da 0 a 300" required>
                 </div>
 
                 <div class="input">
                     <label for="Attack" class="txt_form">Punti Attacco (Attack):</label>
-                    <input type="text" name="attacco" placeholder="Inserisci un numero da 0 a 300">
+                    <input type="text" name="attacco" placeholder="Inserisci un numero da 0 a 300" required>
                 </div>
 
                 <div class="input">
                     <label for="Defense" class="txt_form">Punti difesa (Defense)</label>
-                    <input type="text" name="difesa" placeholder="Inserisci un numero da 0 a 300">
+                    <input type="text" name="difesa" placeholder="Inserisci un numero da 0 a 300" required>
                 </div>
 
                 <div class="input">
                     <label for="Sp.Atk" class="txt_form">Punti Attacco Speciale (Sp. Atk):</label>
-                    <input type="text" name="att_speciale" placeholder="Inserisci un numero da 0 a 300">
+                    <input type="text" name="att_speciale" placeholder="Inserisci un numero da 0 a 300" required>
                 </div>
 
                 <div class="input">
                     <label for="Sp.Defense" class="txt_form">Punti Difesa Speciale (Sp. Defense):</label>
-                    <input type="text" name="dif_speciale" placeholder="Inserisci un numero da 0 a 300">
+                    <input type="text" name="dif_speciale" placeholder="Inserisci un numero da 0 a 300" required>
                 </div>
 
                 <div class="input">
                     <label for="Speed" class="txt_form">Punti velocità (Speed)</label>
-                    <input type="text" name="velocita" placeholder="Inserisci un numero da 0 a 300">
+                    <input type="text" name="velocita" placeholder="Inserisci un numero da 0 a 300" required>
                 </div>
             </div>
                 
-            <button> CERCA </button>
+            <button type="submit"> CERCA </button>
         </form>
 
         <section id="section" >
