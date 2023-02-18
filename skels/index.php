@@ -10,67 +10,69 @@
     <title>Gotta Catch'em All</title>
 </head>
 <body>
-    <div class="container">
-
-        <div>
-            <h1 class="titolone">Gotta Check'em All</h1>
-        </div>
-
-        <div class="sottotitolo">
-            <h3>
-                <strong> Benvenuto </strong>nel tuo motore di ricerca per Pokémon. Potrai inserire le caratteristiche di un <strong>Pémon fittizio </strong>e il back-end 
-                cercherà grazie all’algoritmo di Machine Learning <strong>KNN (K-Nearest Neighbors) </strong>i 5 Pokémon più simili a quello che hai 
-                inserito.
-            </h3>
-        </div>
+    <div class="contenitore">
+        <div class="container">
     
-
-        
-        <form action="index.php" method="post">
-
-            <div class="fields">
-                <div class="input">
-                    <label for="HP" class="txt_form">Punti Vita (HP):</label>
-                    <input type="text" name="vita" placeholder="Inserisci un numero da 0 a 300" required>
-                </div>
-
-                <div class="input">
-                    <label for="Attack" class="txt_form">Punti Attacco (Attack):</label>
-                    <input type="text" name="attacco" placeholder="Inserisci un numero da 0 a 300" required>
-                </div>
-
-                <div class="input">
-                    <label for="Defense" class="txt_form">Punti difesa (Defense)</label>
-                    <input type="text" name="difesa" placeholder="Inserisci un numero da 0 a 300" required>
-                </div>
-
-                <div class="input">
-                    <label for="Sp.Atk" class="txt_form">Punti Attacco Speciale (Sp. Atk):</label>
-                    <input type="text" name="att_speciale" placeholder="Inserisci un numero da 0 a 300" required>
-                </div>
-
-                <div class="input">
-                    <label for="Sp.Defense" class="txt_form">Punti Difesa Speciale (Sp. Defense):</label>
-                    <input type="text" name="dif_speciale" placeholder="Inserisci un numero da 0 a 300" required>
-                </div>
-
-                <div class="input">
-                    <label for="Speed" class="txt_form">Punti velocità (Speed)</label>
-                    <input type="text" name="velocita" placeholder="Inserisci un numero da 0 a 300" required>
-                </div>
+            <div>
+                <h1 class="titolone">Gotta Check'em All</h1>
             </div>
-                
-            <button type="submit"> CERCA </button>
-        </form>
-
-        <section id="section" >
-
-
-            <?php
-            require("../script.php");
-            ?>
-        </section>
+    
+            <div class="sottotitolo">
+                <h3>
+                    <strong> Benvenuto </strong>nel tuo motore di ricerca per Pokémon. Potrai inserire le caratteristiche di un <strong>Pokémon fittizio </strong>e il back-end 
+                    cercherà grazie all’algoritmo di Machine Learning <strong>KNN (K-Nearest Neighbors) </strong>i 5 Pokémon più simili a quello che hai 
+                    inserito.
+                </h3>
+            </div>
         
+    
+            
+            <form action="index.php" method="post">
+    
+                <div class="fields">
+                    <div class="input">
+                        <label for="HP" class="txt_form">Punti Vita (HP):</label>
+                        <input type="text" name="vita" placeholder="Inserisci un numero da 0 a 300" required>
+                    </div>
+    
+                    <div class="input">
+                        <label for="Attack" class="txt_form">Punti Attacco (Attack):</label>
+                        <input type="text" name="attacco" placeholder="Inserisci un numero da 0 a 300" required>
+                    </div>
+    
+                    <div class="input">
+                        <label for="Defense" class="txt_form">Punti difesa (Defense)</label>
+                        <input type="text" name="difesa" placeholder="Inserisci un numero da 0 a 300" required>
+                    </div>
+    
+                    <div class="input">
+                        <label for="Sp.Atk" class="txt_form">Punti Attacco Speciale (Sp. Atk):</label>
+                        <input type="text" name="att_speciale" placeholder="Inserisci un numero da 0 a 300" required>
+                    </div>
+    
+                    <div class="input">
+                        <label for="Sp.Defense" class="txt_form">Punti Difesa Speciale (Sp. Defense):</label>
+                        <input type="text" name="dif_speciale" placeholder="Inserisci un numero da 0 a 300" required>
+                    </div>
+    
+                    <div class="input">
+                        <label for="Speed" class="txt_form">Punti velocità (Speed)</label>
+                        <input type="text" name="velocita" placeholder="Inserisci un numero da 0 a 300" required>
+                    </div>
+                </div>
+                    
+                <button type="submit"> CERCA </button>
+            </form>
+    
+            <section id="section" >
+    
+    
+                <?php
+                require("../script.php");
+                ?>
+            </section>
+            
+        </div>
     </div>
 
     <script src="../static/js/script.js"></script>
